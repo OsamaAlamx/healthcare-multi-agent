@@ -1,0 +1,30 @@
+# Python / OS / Secrets
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+# App runtime
+chroma_store/
+**/chroma_store/
+**/uploads/
+uploads/
+!**/uploads/.gitkeep
+!uploads/.gitkeep
+*.log
+run.log
+medical.db
+
+# Archives / private
+*.rar
+*.zip
+Sessions_*.pdf
+
+# Streamlit / IDE
+.streamlit/secrets.toml
+.vscode/
+.idea/

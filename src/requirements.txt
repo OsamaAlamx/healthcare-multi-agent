@@ -1,0 +1,14 @@
+streamlit
+python-dotenv
+langchain
+langchain-core
+langchain-groq
+langgraph
+pydantic
+sqlalchemy
+bcrypt
+pypdf
+mcp
+langchain-mcp-adapters
+chromadb>=0.5.3
+sentence-transformers>=3.0.0
