@@ -2,8 +2,7 @@
 
 > Plain-language problem → working agent that reasons and acts. Built with Python, LangGraph, MCP tools, Groq API, Chroma RAG, Streamlit.
 
-**Demo:** https://www.loom.com/share/66953d6d7a75463c840303861e983e62 — 60-90s walkthrough (patient books appointment, asks symptoms, uploads PDF, doctor sees summary)
-**What broke and how I fixed it:** MCP stdio subprocesses deadlocked Streamlit reruns, so I added a `direct` in-process tool mode with MCP fallback plus a background warmup thread — `src/mcp_client.py`.
+**Demo:** https://www.loom.com/share/66953d6d7a75463c840303861e983e62 — walkthrough (patient books appointment, asks symptoms, uploads PDF, doctor sees summary).
 
 ## The messy problem
 
